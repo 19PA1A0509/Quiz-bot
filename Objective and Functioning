@@ -1,0 +1,16 @@
+# objective
+This is a quiz bot. This is basically designed as a part of our college assignemnt to design our first wep page.
+
+The player can play this quiz to either test their knowledge or to randomly play to cure their boredom
+
+This quiz bot starts when the player comes to it's web page. It asks him random questions about GK,space,math,english etc.
+There are 10 questions to be answered
+For each question you are given 10points if your answer is correct.
+This bot is designed in such a way that you cannot skip any questions.
+There are no negetive points if you answer it wrong so you can give a random answer if you don't know!!!
+
+If you say any answer wrong,you will get a pop up saying which answer is correct.
+There comes an alert message even if you miss any question.
+Soo..answer the quiz properly and see your score to estimate your knowledge in small facts.
+
+you can relaod the page if you want to play again.
