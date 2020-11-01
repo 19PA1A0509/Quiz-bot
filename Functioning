@@ -1,0 +1,23 @@
+first in the html file you will be given what is the quiz made of
+i.e., the head where you get intoduced to it.
+and the theme of the web page is given through the css file .
+
+In this file;
+backround theme is selected.
+font is selected for page.
+The quiz container box and question box and option boxes and next question box are dimensioned.
+Specific Text colour for Title,question and option buttons are given.
+
+In body:
+The format of question and options and next question buttons are given
+These questions are loaded from one javascript file and 
+The loading of questions are given in another javascript file.
+
+In this file :
+you can load the next question only if you answer tha present one.
+If it's correct you get 10 points.
+And if it's wrong you get a message of correct answer and the next one is loaded.
+you can't skip any of them.
+
+For the last question you get a finish button instead of next question button.
+And when you click finsh after answering...You will get your score out of 100.
