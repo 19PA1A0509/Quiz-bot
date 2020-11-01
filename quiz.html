@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--giving intro and theme to quiz page-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz</title>
+    <p><b> Hey buddy you wanna play quiz with me? <br> I will give you some questions on random topics to test you in english,cricket,gk,space etc</b></p>
+    <p>so shall we start the quiz?</p>
+    <!--importing font from google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link href="theme.css" rel="stylesheet">
+</head>
+<!--structure of quiz-->
+
+<body>
+    <div id="quizContainer" class="container">
+        <div class="title">Quiz</div>
+        <h3>Come on buddy!!! answer all of them correct</h3>
+        <div id="question" class="question"></div>
+        <label class="option"><input type="radio" name="option" value="1"/> <span id="option1"></span></label>
+        <label class="option"><input type="radio" name="option" value="2"/> <span id="option2"></span></label>
+        <label class="option"><input type="radio" name="option" value="3"/> <span id="option3"></span></label>
+        <label class="option"><input type="radio" name="option" value="4"/> <span id="option4"></span></label>
+        <button id="nextButton" class="Nxtbtn" onclick="displaynextquestion();">Next Question</button>
+    </div>
+    <!--to display the result atlast-->
+    <div id="result" class="result" style="display:none;"></div>
+    <!--importing questions and format from js files -->
+    <script src="questions.js"></script>
+    <script src="quizbuild.js"></script>
+</body>
+
+</html>
